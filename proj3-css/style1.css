@@ -1,0 +1,42 @@
+/* ELEMENT Selector --> selection is based on the tags  */
+/* h1{
+    color : blue;
+}
+
+p{
+    color : red;
+} */
+
+/* CLASS SELECTOR  */
+/* h1{
+    color : blue;
+}
+.one{
+    color : green;
+}
+.two{
+    color :blueviolet;
+}
+p{
+    color : red;
+} */
+
+/* ID SELECTOR  */
+/* h1{
+    color : blue;
+}
+.one{
+    color : green;
+}
+#(two{
+    color :blueviolet;
+}
+p{
+    color : red;
+} */
+
+
+/* UNIVERSAL SELECTOR  */
+*{
+    color : blue
+}
