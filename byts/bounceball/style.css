@@ -1,0 +1,75 @@
+html,body{
+    margin: 0;
+}
+.container{
+    height: 100vw;
+    height: 100vw;
+    background-color: rgb(31, 106, 192);
+}
+
+
+.playground{
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    animation: bounce;
+    animation-duration: infinite;
+    animation-timing-function: linear;
+   
+}
+.ball{
+    background: url("shinchan.gif");
+    height: 250px;
+    width: 200px;
+    /* border-radius: 50%; */
+    /* background-color:black ; */
+    animation-name:bounce ;
+    animation-duration: 2s;
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+    
+    /* This code is for ball instead of shinchan  */
+    /* height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:black ;
+    animation-name:bounce ;
+    animation-duration: 3s; */
+}
+.grass{
+    height:40%;
+    background-color: green;
+}
+@keyframes bounce {
+    0%{
+        margin-bottom: 0px;
+    }
+    20%{
+        margin-bottom: 15px;
+    }
+    40%{
+        margin-bottom: 25px;
+    }
+    60%{
+        margin-bottom: 35px;
+    }
+    80%{
+        margin-bottom: 45px;
+    }
+    86%{
+        margin-bottom: 55px;
+    }
+    90%{
+        margin-bottom: 45px;
+    }
+
+    100%{
+        margin-bottom: 0px;
+    }
+    
+}
+
+
+

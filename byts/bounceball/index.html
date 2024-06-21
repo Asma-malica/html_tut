@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+     <div class="playground">
+        <div class="ball" id = "player" onclick="game(10)"></div>
+     </div>
+     <div class="grass"></div>
+    </div>
+
+    <script>
+        var val = 10 ;
+        function game(key)
+        {
+            if(key.code == "ArrowLeft")
+            {
+                var ele = document.getElementById('player');
+                val = val - 10 ;
+                ele.style.marginLeft = val + 'px' ;
+            }
+            else if(key.code == "ArrowRight")
+            {
+                var ele = document.getElementById('player');
+                val = val + 10 ;
+                ele.style.marginLeft = val + 'px' ;
+            }
+        }
+        document.addEventListener('keyup',game);
+    </script>
+</body>
+</html>
