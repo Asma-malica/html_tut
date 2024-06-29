@@ -89,7 +89,7 @@
 //         doorno:120,
 //         city:{
 //             district: 'salem',
-//             town: 'sankari',
+//             town: 'ssss',
 //             pincode:638056
 //         }
 //     }
@@ -97,10 +97,14 @@
 
 // console.log(obj.address.doorno);//120
 // console.log(obj.address.city.district);//salem
-// console.log(obj.address.city.town);//sankari
+// console.log(obj.address.city.town);//ssss
 // console.log(obj.address.city.pincode);//638056
 // console.log(obj.address.city.street); //undefined
-// console.log(obj.address.sity.pincode);//error ...because there is not sity object but then we  looking up for
+// console.log(obj.address.sity.pincode);//error ...because there is no city object but then we  looking up for
 //                                  //another object in undefine..so error
+
+
+// semicolon is option in javascript.
+// but we must keep semicolon at end of the javascript.
 
 
